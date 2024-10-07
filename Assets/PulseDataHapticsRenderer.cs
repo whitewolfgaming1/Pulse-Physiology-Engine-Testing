@@ -84,9 +84,7 @@ namespace Pulse.Unity
 }
 
 /* extra comments
- * 
  * - have to change data field every time (make permanent?)
  * - intensity too high?
  * - make just 1 motor
- * 
  */
