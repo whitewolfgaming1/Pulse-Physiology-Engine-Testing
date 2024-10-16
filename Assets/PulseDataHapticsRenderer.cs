@@ -70,7 +70,14 @@ namespace Pulse.Unity
 
             for (int i = 0; i < motorArray.Length; i++)
             {
-                motorArray[i] = intensity;  // Uniform intensity for all motors in this example
+                if (i == 0)
+                {
+                    motorArray[i] = intensity;  // Set intensity for selected motors
+                }
+                else
+                {
+                    motorArray[i] = 0; // Set intensity to 0 for other motors
+                }
             }
 
             // Trigger the haptic feedback
