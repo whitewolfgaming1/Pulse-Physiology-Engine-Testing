@@ -70,7 +70,7 @@ namespace Pulse.Unity
 
             for (int i = 0; i < motorArray.Length; i++)
             {
-                if (i == 0)
+                if (i == 0 || i == 1 || i == 4 || i == 5)
                 {
                     motorArray[i] = intensity;  // Set intensity for selected motors
                 }
